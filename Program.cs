@@ -1,3 +1,4 @@
+using _00_ArenaRPG_Base;
 using System;
 
 namespace ArenaRPG
@@ -32,7 +33,7 @@ namespace ArenaRPG
             oso.RecibirDanio(20);
             enemigo.SoltarBotin(); // Proviene de IRecompensable
 
-            // Prueba del Estudiante 3: (Clase Supay + Interfaces)
+            //Prueba del Estudiante 3: (Clase Supay + Interfaces)
             Supay jefeMagico = new Supay();
             jefeMagico.LanzarHechizo(); // Proviene de IMagico
             
@@ -43,6 +44,9 @@ namespace ArenaRPG
 
             Console.WriteLine("\nPresiona ENTER para salir...");
             Console.ReadLine();
+
+            Supay jefeMagico = new Supay();
+            jefeMagico.LanzarHechizo(); // Proviene de IMagico
         }
     }
 }
